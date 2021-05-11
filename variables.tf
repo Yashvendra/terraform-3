@@ -8,7 +8,7 @@ variable "description" {
 variable "policy-name" {
   description = "The name of the policy"
   type        = string
-  default     = "CyberqSnsPolicy-2"
+  default     = "CyberqSnsPolicy"
 }
 
 
@@ -23,7 +23,7 @@ variable "path" {
 variable "role-name" {
   description = "The name of the Role"
   type        = string
-  default     = "CyberqRole-2"
+  default     = "CyberqRole"
 }
 
 variable "ExternalId" {
