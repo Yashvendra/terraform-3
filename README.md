@@ -1,6 +1,7 @@
 # terraform-3 module
 
-============ main.tf =========
+#### main.tf
+```
 provider "aws" {
   region = "ap-south-1"
 }
@@ -11,4 +12,4 @@ module "tf" {
     AccountId = "131860523262"
   
 }
-==============
+```
