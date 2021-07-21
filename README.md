@@ -8,8 +8,8 @@ provider "aws" {
 
 module "tf" {
     source = "git::https://github.com/SecLogic-Technologies/terraform-3.git"
-    ExternalId = "raghavsingh"
-    AccountId = "131860523262"
+    ExternalId = "raghavsingh"  # Copy from cyberq dashboard
+    AccountId = "1234566789"    # Copy from cyberq dashboard
   
 }
 ```
