@@ -1,23 +1,3 @@
-# IAM Policy Var
-variable "description" {
-  description = "The name of the policy"
-  type        = string
-  default     = "Cyberq sns police"
-}
-
-variable "policy-name" {
-  description = "The name of the policy"
-  type        = string
-  default     = "CyberqSnsPolicy"
-}
-
-
-variable "path" {
-  description = "The name of the policy"
-  type        = string
-  default     = "/"
-}
-
 # IAM Role Var
 
 variable "role-name" {
@@ -27,13 +7,13 @@ variable "role-name" {
 }
 
 variable "ExternalId" {
-  description = "The ExternalId of the Role"
+  description = "Copy ExternalId from Cyberq dashboard"
   type        = string
   default     = ""
 }
 
-variable "AccountId" {
-  description = "The AccountId of the Role"
+variable "CyberqArn" {
+  description = "Copy ARN from Cyberq dashboard"
   type        = string
   default     = ""
 }
