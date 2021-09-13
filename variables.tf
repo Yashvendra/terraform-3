@@ -17,3 +17,9 @@ variable "CyberqArn" {
   type        = string
   default     = ""
 }
+
+variable "PolicyName" {
+  description = "IAM usernames"
+  type        = list(string)
+  default     = ["SecurityAudit", "AWSElasticBeanstalkReadOnly", "AmazonDynamoDBReadOnlyAccess", "AmazonSNSReadOnlyAccess", "AmazonEMRReadOnlyAccessPolicy_v2", "AmazonElasticMapReduceReadOnlyAccess", "AmazonElasticFileSystemReadOnlyAccess"]
+}
